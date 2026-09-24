@@ -1,0 +1,6 @@
+colors = ["Blue", "Yellow", "Black", "Red", "White"]
+color = input("Mau sac yeu thich cua ban ")
+if color in colors:
+    print("Mau sac do la ",colors.index(color), "Trong danh sach")
+else:
+    print("Xin loi, khong co mau")
